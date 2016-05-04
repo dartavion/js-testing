@@ -1,4 +1,24 @@
 {
   "name": "js-testing",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "description": "this is the description",
+  "repository": "repository",
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "jshint src test",
+    "test": "karma start"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.2",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-jshint-preprocessor": "0.0.6",
+    "karma-mocha": "^1.0.1",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "mocha": "^2.4.5",
+    "phantomjs-prebuilt": "^2.1.7",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  }
 }
