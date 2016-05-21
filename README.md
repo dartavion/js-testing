@@ -113,4 +113,13 @@ function sayHello() {
 ```
 jshint src/hello.js
 ```
-# You should be up and running to begin TDD in javascript
+#### Add a .gitignore to your project folder and add the following(this ensures that the node_modules folder does not get stored on git)
+```
+node_modules
+```
+#### Checkin all your code to your git repo
+```
+git commit -am 'initial commit'
+git push -u origin master
+```
+## You should be up and running to begin TDD in javascript
