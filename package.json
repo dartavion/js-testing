@@ -23,5 +23,8 @@
     "phantomjs-prebuilt": "^2.1.7",
     "sinon": "^1.17.4",
     "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
   }
 }
